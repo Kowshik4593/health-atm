@@ -1,0 +1,36 @@
+﻿============================================================
+Inference Pipeline - End-to-End Test
+============================================================
+
+1. Creating synthetic 64x64x64 volume...
+   Volume shape: (64, 64, 64)
+   Saved to: C:\Users\padal\AppData\Local\Temp\healthatm_test_4l_6dwrk\test_scan.npy
+
+2. Running inference pipeline...
+[inference] >>> Starting analysis for case: TEST-E2E-001
+[inference] Loading model on: cuda
+[inference] [OK] Model loaded from C:\Users\padal\Documents\Work\FYP-1\backend\ml\models\unet3d_finetuned.pth
+[inference] Volume loaded: (64, 64, 64)
+[inference] Sliding window: 1 patches (64x64x64)
+[inference] Processed 1 patches, avg risk: 0.8867
+[inference] Segmentation complete. Mask sum: 0
+[inference] Found 0 connected components
+[inference] Extracted 0 nodules (min vol: 10.0 mm3)
+[inference] [OK] Analysis complete in 2.98s
+[inference]    Nodules: 0, High-risk: 0
+[inference]    Findings: C:\Users\padal\AppData\Local\Temp\healthatm_test_4l_6dwrk\output\TEST-E2E-001_findings.json
+
+3. Verifying findings structure...
+   All required keys present
+
+4. Results:
+   Study ID: TEST-E2E-001
+   Nodules found: 0
+   Processing time: 2.98s
+   Impression: No significant nodules detected by AI analysis....
+
+5. findings.json saved (951 bytes)
+
+============================================================
+END-TO-END TEST COMPLETE - ALL PASS
+============================================================

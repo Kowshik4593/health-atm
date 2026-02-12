@@ -1,0 +1,88 @@
+{
+  "cases": {
+    "e157c89c-7472-4b3e-8bca-b6e5a2e432c0": {
+      "created": "2026-02-12T16:45:45.730274Z",
+      "files": {
+        "clinician_e157c89c-7472-4b3e-8bca-b6e5a2e432c0.pdf": {
+          "size": 30829,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:45:45.730284Z"
+        },
+        "patient_en_e157c89c-7472-4b3e-8bca-b6e5a2e432c0.pdf": {
+          "size": 35138,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:45:45.748776Z"
+        },
+        "patient_hi_e157c89c-7472-4b3e-8bca-b6e5a2e432c0.pdf": {
+          "size": 48355,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:45:45.767105Z"
+        }
+      },
+      "updated": "2026-02-12T16:45:45.767119Z"
+    },
+    "54d80b3c-05c4-4e09-bafa-77531a9bb955": {
+      "created": "2026-02-12T16:54:32.210514Z",
+      "files": {
+        "clinician_54d80b3c-05c4-4e09-bafa-77531a9bb955.pdf": {
+          "size": 35158,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:54:32.210531Z"
+        },
+        "patient_en_54d80b3c-05c4-4e09-bafa-77531a9bb955.pdf": {
+          "size": 39326,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:54:32.924738Z"
+        },
+        "patient_hi_54d80b3c-05c4-4e09-bafa-77531a9bb955.pdf": {
+          "size": 49983,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:54:33.725362Z"
+        }
+      },
+      "updated": "2026-02-12T16:54:33.725379Z"
+    },
+    "386a3544-ef44-4d10-bc2c-764455f06356": {
+      "created": "2026-02-12T16:55:51.712970Z",
+      "files": {
+        "clinician_386a3544-ef44-4d10-bc2c-764455f06356.pdf": {
+          "size": 35077,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:55:51.712980Z"
+        },
+        "patient_en_386a3544-ef44-4d10-bc2c-764455f06356.pdf": {
+          "size": 39426,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:55:53.123556Z"
+        },
+        "patient_hi_386a3544-ef44-4d10-bc2c-764455f06356.pdf": {
+          "size": 50078,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:55:53.824504Z"
+        }
+      },
+      "updated": "2026-02-12T16:55:53.824527Z"
+    },
+    "06d306c6-e76c-4789-83df-3712c7ecae66": {
+      "created": "2026-02-12T16:56:05.497110Z",
+      "files": {
+        "clinician_06d306c6-e76c-4789-83df-3712c7ecae66.pdf": {
+          "size": 35276,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:56:05.497124Z"
+        },
+        "patient_en_06d306c6-e76c-4789-83df-3712c7ecae66.pdf": {
+          "size": 39540,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:56:05.514194Z"
+        },
+        "patient_hi_06d306c6-e76c-4789-83df-3712c7ecae66.pdf": {
+          "size": 50303,
+          "checksum": null,
+          "saved_at": "2026-02-12T16:56:05.531882Z"
+        }
+      },
+      "updated": "2026-02-12T16:56:05.531897Z"
+    }
+  }
+}

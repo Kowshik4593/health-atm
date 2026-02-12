@@ -1,0 +1,73 @@
+{
+  "study_id": "386a3544-ef44-4d10-bc2c-764455f06356",
+  "study_uid": "386a3544-ef44-4d10-bc2c-764455f06356",
+  "patient_name": "N/A",
+  "patient_age": "N/A",
+  "patient_sex": "N/A",
+  "scan_date": "2026-02-12",
+  "num_nodules": 1,
+  "num_candidates": 1,
+  "nodules": [
+    {
+      "id": 1,
+      "centroid": [
+        33.3,
+        31.8,
+        32.5
+      ],
+      "bbox": {
+        "z": [
+          31,
+          35
+        ],
+        "y": [
+          29,
+          34
+        ],
+        "x": [
+          30,
+          35
+        ]
+      },
+      "volume_mm3": 84.0,
+      "long_axis_mm": 5.0,
+      "voxel_count": 84,
+      "prob_malignant": 0.0328,
+      "p_malignant": 0.0328,
+      "type": "benign",
+      "location": "RLL",
+      "uncertainty": {
+        "confidence": 0.9672,
+        "entropy": 0.1442,
+        "needs_review": false
+      },
+      "gradcam_path": "not_available",
+      "saliency_path": "not_available",
+      "overlay_path": "not_available",
+      "mask_path": "not_available"
+    }
+  ],
+  "lung_health": "AI-Analyzed",
+  "emphysema_score": 0.0,
+  "fibrosis_score": 0.0,
+  "consolidation_score": 0.0,
+  "airway_wall_thickness": "Normal",
+  "impression": "AI detected 1 nodule(s), all classified as low risk. Routine follow-up suggested.",
+  "summary_text": "The AI scan found 1 small spot(s) that appear low risk. Regular check-ups are recommended.",
+  "processing_time_seconds": 6.38,
+  "metadata": {
+    "model": "FullUNet3D-v1",
+    "model_path": "C:\\Users\\padal\\Documents\\Work\\FYP-1\\backend\\ml\\models\\unet3d_finetuned.pth",
+    "spacing": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "volume_shape": [
+      64,
+      64,
+      64
+    ],
+    "analyzed_at": "2026-02-12T16:53:42.605078Z"
+  }
+}

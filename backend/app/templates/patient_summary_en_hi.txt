@@ -1,0 +1,75 @@
+==========================================
+             PATIENT SUMMARY
+==========================================
+
+Study ID: {{ study_uid }}
+Scan Date: {{ scan_date or "Not Available" }}
+Patient Age: {{ patient_age or "Not Available" }} years
+Patient Sex: {{ patient_sex or "Not Available" }}
+
+------------------------------------------
+OVERVIEW
+------------------------------------------
+This is a simplified explanation of your recent chest CT scan.
+Our AI system reviewed your lungs to help your doctor understand
+your health condition.
+
+------------------------------------------
+LUNG CONDITION
+------------------------------------------
+Overall Lung Status: {{ lung_health or "Not Available" }}
+
+{% if airway_wall_thickness %}
+Airway Wall Condition: {{ airway_wall_thickness }}
+{% endif %}
+
+{% if emphysema_score %}
+Emphysema Score: {{ emphysema_score }}
+{% endif %}
+
+------------------------------------------
+NODULE SUMMARY
+------------------------------------------
+Total Lung Nodules Found: {{ nodules | length }}
+High-Risk Nodules (>70% chance): {{ high_risk_count }}
+
+{% if nodules | length == 0 %}
+No nodules were detected in this scan.
+{% else %}
+Detailed information:
+
+{% for n in nodules %}
+Nodule {{ loop.index }}:
+ - Size: {{ n.size_mm or "NA" }} mm
+ - Location: {{ n.location or "NA" }}
+ - Type: {{ n.type or "NA" }}
+ - Chance of being cancerous: {{ (n.p_malignant * 100) | round(1) }}%
+
+{% endfor %}
+{% endif %}
+
+------------------------------------------
+IMPRESSION
+------------------------------------------
+{{ impression or "No impression was provided in the scan analysis." }}
+
+------------------------------------------
+PATIENT-FRIENDLY SUMMARY
+------------------------------------------
+{{ summary_text or "Your scan has been analyzed. Your doctor will review these findings and guide the next steps." }}
+
+------------------------------------------
+FOLLOW-UP ADVICE
+------------------------------------------
+{% if high_risk_count > 0 %}
+Some nodules need medical follow-up. Your doctor may advise:
+ - Another CT scan in a few months
+ - Specialist consultation
+ - Additional tests depending on symptoms
+{% else %}
+No high-risk nodules detected. Routine monitoring may be recommended.
+{% endif %}
+
+------------------------------------------
+END OF REPORT
+------------------------------------------

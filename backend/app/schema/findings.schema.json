@@ -1,0 +1,227 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lung CT Findings Schema (Phase-2)",
+  "description": "Validated output of AI runtime (detector + segmenter + classifier + XAI) for clinical report generation",
+  "version": "2.0.0",
+  "type": "object",
+  "required": ["study_uid", "num_nodules", "nodules"],
+  "properties": {
+    "study_uid": {
+      "type": "string",
+      "description": "Unique identifier for the CT study (primary key)"
+    },
+    "study_id": {
+      "type": "string",
+      "description": "Alternative study identifier (legacy support)"
+    },
+    "num_nodules": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total number of nodules detected in the scan"
+    },
+    "num_candidates": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total candidates before filtering"
+    },
+    "processing_time_seconds": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Total ML pipeline processing time"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 timestamp when inference completed"
+    },
+
+    "metadata": {
+      "type": "object",
+      "description": "Scan metadata from DICOM",
+      "properties": {
+        "volume_shape": {
+          "type": "array",
+          "items": {"type": "integer"},
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "spacing": {
+          "type": "array",
+          "items": {"type": "number"},
+          "minItems": 3,
+          "maxItems": 3,
+          "description": "Voxel spacing in mm [z, y, x]"
+        },
+        "vendor": {"type": "string"},
+        "slice_thickness": {"type": "number"},
+        "patient_lang": {
+          "type": "string",
+          "description": "Patient's preferred language code"
+        }
+      }
+    },
+
+    "scan_metadata": {
+      "type": "object",
+      "description": "Alternative metadata location (legacy support)",
+      "properties": {
+        "vendor": {"type": "string"},
+        "slice_thickness": {"type": "number"},
+        "spacing": {
+          "type": "array",
+          "items": {"type": "number"}
+        }
+      }
+    },
+
+    "lung_health": {
+      "type": "string",
+      "description": "Overall lung health summary text"
+    },
+    "emphysema_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Emphysema severity score (0-1)"
+    },
+    "fibrosis_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Fibrosis severity score (0-1)"
+    },
+    "consolidation_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Consolidation score (0-1)"
+    },
+    "airway_wall_thickness": {
+      "type": "string",
+      "description": "Airway wall assessment"
+    },
+    "impression": {
+      "type": "string",
+      "description": "Clinical impression summary"
+    },
+    "summary_text": {
+      "type": "string",
+      "description": "Patient-friendly summary text"
+    },
+
+    "nodules": {
+      "type": "array",
+      "description": "Array of detected nodules with attributes",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": {
+            "type": ["string", "integer"],
+            "description": "Unique nodule identifier within study"
+          },
+          
+          "centroid": {
+            "type": "array",
+            "items": {"type": "number"},
+            "minItems": 3,
+            "maxItems": 3,
+            "description": "Nodule center coordinates [z, y, x]"
+          },
+          "coordinates": {
+            "type": "array",
+            "items": {"type": "number"},
+            "description": "Alternative coordinate field (legacy)"
+          },
+          
+          "bbox": {
+            "type": "object",
+            "description": "Bounding box coordinates",
+            "properties": {
+              "z": {"type": "array", "items": {"type": "integer"}},
+              "y": {"type": "array", "items": {"type": "integer"}},
+              "x": {"type": "array", "items": {"type": "integer"}}
+            }
+          },
+
+          "long_axis_mm": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Longest diameter in mm"
+          },
+          "volume_mm3": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Nodule volume in cubic mm"
+          },
+
+          "type": {
+            "type": "string",
+            "enum": ["solid", "subsolid", "ground-glass", "ground_glass", "ggo", "unknown"],
+            "description": "Nodule texture classification"
+          },
+
+          "lobe": {
+            "type": "string",
+            "description": "Anatomical lobe location (LIDC format)"
+          },
+          "location": {
+            "type": "string",
+            "description": "Anatomical location description"
+          },
+
+          "p_malignant": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Malignancy probability (0-1)"
+          },
+          "prob_malignant": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Alternative malignancy field (legacy)"
+          },
+
+          "uncertainty": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+                  "entropy": {"type": "number", "minimum": 0},
+                  "needs_review": {"type": "boolean"}
+                }
+              },
+              {"type": "number"}
+            ],
+            "description": "Model uncertainty metrics"
+          },
+          "needs_review": {
+            "type": "boolean",
+            "description": "Flag for manual review"
+          },
+
+          "mask_path": {
+            "type": "string",
+            "description": "Path to 3D segmentation mask (.npy)"
+          },
+          "overlay_path": {
+            "type": "string",
+            "description": "Path to 2D overlay image"
+          },
+          "gradcam_path": {
+            "type": "string",
+            "description": "Path to GradCAM visualization"
+          },
+          "saliency_path": {
+            "type": "string",
+            "description": "Path to saliency map"
+          }
+        }
+      }
+    }
+  },
+
+  "additionalProperties": true
+}

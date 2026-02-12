@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+:root {
+  /* Apple-inspired Slate & Blue Palette */
+  --background: #f8fafc; /* Slate-50 */
+  --foreground: #0f172a; /* Slate-900 */
+  
+  --primary: #2563eb; /* Blue-600 */
+  --primary-foreground: #ffffff;
+  
+  --secondary: #e2e8f0; /* Slate-200 */
+  --secondary-foreground: #1e293b; /* Slate-800 */
+  
+  --muted: #f1f5f9; /* Slate-100 */
+  --muted-foreground: #64748b; /* Slate-500 */
+  
+  --accent: #eff6ff; /* Blue-50 */
+  --accent-foreground: #1d4ed8; /* Blue-700 */
+  
+  --destructive: #ef4444; /* Red-500 */
+  --destructive-foreground: #ffffff;
+  
+  --border: #e2e8f0; /* Slate-200 */
+  --input: #e2e8f0;
+  --ring: #94a3b8; /* Slate-400 */
+  
+  --radius: 0.75rem; /* 12px - Smooth corners */
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  
+  /* Custom Animations */
+  --animate-fade-in: fade-in 0.6s ease-out;
+  --animate-fade-in-up: fade-in-up 0.8s ease-out;
+  --animate-scale-in: scale-in 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-slide-in-right: slide-in-right 0.5s ease-out;
+  
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  @keyframes scale-in {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+
+  @keyframes slide-in-right {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+}
+
+/* Dark Mode - Professional Deep Slate */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #020617; /* Slate-950 */
+    --foreground: #f8fafc; /* Slate-50 */
+    
+    --primary: #3b82f6; /* Blue-500 */
+    --primary-foreground: #ffffff;
+    
+    --secondary: #1e293b; /* Slate-800 */
+    --secondary-foreground: #f8fafc;
+    
+    --muted: #0f172a; /* Slate-900 */
+    --muted-foreground: #94a3b8; /* Slate-400 */
+    
+    --accent: #1e293b;
+    --accent-foreground: #60a5fa; /* Blue-400 */
+    
+    --border: #1e293b;
+    --input: #1e293b;
+    --ring: #475569;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.dark .glass {
+  background: rgba(2, 6, 23, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Hide scrollbar for clean UI */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

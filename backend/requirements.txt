@@ -1,0 +1,50 @@
+# HealthATM Backend - Phase-3 Requirements
+# Updated: Feb 2026
+
+# Core Framework
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-dotenv>=1.0.0
+
+# Database
+supabase>=2.3.0
+
+# PDF Generation
+weasyprint>=60.0
+jinja2>=3.1.0
+
+# Validation
+jsonschema>=4.21.0
+
+# Translation (NLLB model)
+torch>=2.1.0
+transformers>=4.36.0
+
+# HTTP Client
+requests>=2.31.0
+python-multipart>=0.0.6
+
+# Optional: numpy for mask processing
+numpy>=1.24.0
+
+# Phase-3: ML Inference Pipeline
+pydicom>=2.4.0
+scipy>=1.11.0
+scikit-image>=0.22.0
+matplotlib>=3.8.0
+
+# Phase-3: LLM & Agentic AI
+groq>=0.4.0
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain-groq>=0.2.0
+
+# Phase-3: Caching
+diskcache>=5.6.0
+
+# Phase-3: Image Processing (XAI)
+Pillow>=10.0.0
+
+# Development
+pytest>=7.4.0
+httpx>=0.26.0

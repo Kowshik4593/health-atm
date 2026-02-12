@@ -1,0 +1,159 @@
+{
+  "study_uid": "XAI-TEST-001",
+  "study_id": "XAI-TEST-001",
+  "metadata": {
+    "volume_shape": [256, 256, 128],
+    "spacing": [1.0, 1.0, 1.0]
+  },
+  "num_candidates": 7,
+  "num_nodules": 7,
+  "processing_time_seconds": 5.25,
+  "lung_health": "Lungs appear within expected attenuation ranges.",
+  "emphysema_score": 0.002,
+  "fibrosis_score": 0.15,
+  "consolidation_score": 0.08,
+  "impression": "7 nodules detected. 3 high-risk nodules require clinical attention. XAI visualizations available for all high-risk findings.",
+  "summary_text": "This exam shows several small nodules. Some need follow-up. Please discuss with your doctor.",
+  "nodules": [
+    {
+      "id": 1,
+      "centroid": [128, 100, 64],
+      "coordinates": [128, 100, 64],
+      "long_axis_mm": 18.5,
+      "volume_mm3": 2450,
+      "type": "solid",
+      "lobe": "right upper lobe",
+      "location": "right upper lobe",
+      "p_malignant": 0.85,
+      "prob_malignant": 0.85,
+      "gradcam_path": "outputs/nodule_1_gradcam.png",
+      "overlay_path": "outputs/nodule_1_overlay.png",
+      "mask_path": "outputs/nodule_1_mask.npy",
+      "uncertainty": {
+        "confidence": 0.9,
+        "entropy": 0.25,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 2,
+      "centroid": [150, 120, 80],
+      "coordinates": [150, 120, 80],
+      "long_axis_mm": 12.3,
+      "volume_mm3": 890,
+      "type": "subsolid",
+      "lobe": "left upper lobe",
+      "location": "left upper lobe",
+      "p_malignant": 0.78,
+      "prob_malignant": 0.78,
+      "gradcam_path": "outputs/nodule_2_gradcam.png",
+      "overlay_path": "outputs/nodule_2_overlay.png",
+      "mask_path": "outputs/nodule_2_mask.npy",
+      "uncertainty": {
+        "confidence": 0.85,
+        "entropy": 0.32,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 3,
+      "centroid": [100, 180, 50],
+      "coordinates": [100, 180, 50],
+      "long_axis_mm": 8.7,
+      "volume_mm3": 320,
+      "type": "ground-glass",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "p_malignant": 0.72,
+      "prob_malignant": 0.72,
+      "gradcam_path": "outputs/nodule_3_gradcam.png",
+      "overlay_path": "outputs/nodule_3_overlay.png",
+      "mask_path": "outputs/nodule_3_mask.npy",
+      "uncertainty": {
+        "confidence": 0.75,
+        "entropy": 0.45,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 4,
+      "centroid": [200, 150, 90],
+      "coordinates": [200, 150, 90],
+      "long_axis_mm": 6.2,
+      "volume_mm3": 150,
+      "type": "solid",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "p_malignant": 0.45,
+      "prob_malignant": 0.45,
+      "gradcam_path": "outputs/nodule_4_gradcam.png",
+      "overlay_path": "outputs/nodule_4_overlay.png",
+      "mask_path": "outputs/nodule_4_mask.npy",
+      "uncertainty": {
+        "confidence": 0.7,
+        "entropy": 0.5,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 5,
+      "centroid": [80, 200, 100],
+      "coordinates": [80, 200, 100],
+      "long_axis_mm": 4.5,
+      "volume_mm3": 45,
+      "type": "solid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "p_malignant": 0.25,
+      "prob_malignant": 0.25,
+      "gradcam_path": "outputs/nodule_5_gradcam.png",
+      "overlay_path": "outputs/nodule_5_overlay.png",
+      "mask_path": "outputs/nodule_5_mask.npy",
+      "uncertainty": {
+        "confidence": 0.9,
+        "entropy": 0.15,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 6,
+      "centroid": [170, 90, 60],
+      "coordinates": [170, 90, 60],
+      "long_axis_mm": 3.8,
+      "volume_mm3": 28,
+      "type": "solid",
+      "lobe": "left upper lobe",
+      "location": "left upper lobe",
+      "p_malignant": 0.12,
+      "prob_malignant": 0.12,
+      "gradcam_path": "outputs/nodule_6_gradcam.png",
+      "overlay_path": "outputs/nodule_6_overlay.png",
+      "mask_path": "outputs/nodule_6_mask.npy",
+      "uncertainty": {
+        "confidence": 0.95,
+        "entropy": 0.08,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 7,
+      "centroid": [140, 160, 75],
+      "coordinates": [140, 160, 75],
+      "long_axis_mm": 5.2,
+      "volume_mm3": 70,
+      "type": "subsolid",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "p_malignant": 0.35,
+      "prob_malignant": 0.35,
+      "gradcam_path": "outputs/nodule_7_gradcam.png",
+      "overlay_path": "outputs/nodule_7_overlay.png",
+      "mask_path": "outputs/nodule_7_mask.npy",
+      "uncertainty": {
+        "confidence": 0.8,
+        "entropy": 0.35,
+        "needs_review": false
+      }
+    }
+  ]
+}
