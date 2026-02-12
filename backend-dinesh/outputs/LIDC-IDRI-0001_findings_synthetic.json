@@ -1,0 +1,3654 @@
+{
+  "study_id": "LIDC-IDRI-0001",
+  "metadata": {
+    "volume_shape": [
+      360,
+      360,
+      332
+    ],
+    "spacing": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "num_candidates": 93,
+  "num_nodules": 93,
+  "processing_time_seconds": 7.9025559425354,
+  "lung_health": "Lungs appear within expected attenuation ranges.",
+  "emphysema_score": 0.0010729492042243047,
+  "fibrosis_score": 1.0,
+  "consolidation_score": 0.9141988788487282,
+  "impression": "93 nodules detected. Largest measures 53.5 mm. 93 nodules show moderate-to-high malignancy probability. Recommend clinical correlation.",
+  "summary_text": "This exam shows multiple small nodules. Please consult your clinician for follow-up.",
+  "nodules": [
+    {
+      "id": 0,
+      "centroid": [
+        226,
+        162,
+        141
+      ],
+      "coordinates": [
+        226,
+        162,
+        141
+      ],
+      "bbox": {
+        "z": [
+          210,
+          241
+        ],
+        "y": [
+          146,
+          177
+        ],
+        "x": [
+          125,
+          156
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 45.52,
+      "volume_mm3": 28579,
+      "type": "solid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.72,
+      "uncertainty": {
+        "confidence": 0.8,
+        "entropy": 0.438,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 1,
+      "centroid": [
+        117,
+        243,
+        94
+      ],
+      "coordinates": [
+        117,
+        243,
+        94
+      ],
+      "bbox": {
+        "z": [
+          101,
+          132
+        ],
+        "y": [
+          227,
+          258
+        ],
+        "x": [
+          78,
+          109
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 42.3,
+      "volume_mm3": 27742,
+      "type": "subsolid",
+      "lobe": "right upper lobe",
+      "location": "right upper lobe",
+      "prob_malignant": 0.477,
+      "uncertainty": {
+        "confidence": 0.5,
+        "entropy": 0.541,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 2,
+      "centroid": [
+        120,
+        189,
+        200
+      ],
+      "coordinates": [
+        120,
+        189,
+        200
+      ],
+      "bbox": {
+        "z": [
+          104,
+          135
+        ],
+        "y": [
+          173,
+          204
+        ],
+        "x": [
+          184,
+          215
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 40.11,
+      "volume_mm3": 32983,
+      "type": "solid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.887,
+      "uncertainty": {
+        "confidence": 0.823,
+        "entropy": 0.159,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 3,
+      "centroid": [
+        124,
+        218,
+        296
+      ],
+      "coordinates": [
+        124,
+        218,
+        296
+      ],
+      "bbox": {
+        "z": [
+          108,
+          139
+        ],
+        "y": [
+          202,
+          233
+        ],
+        "x": [
+          280,
+          311
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 47.73,
+      "volume_mm3": 33863,
+      "type": "subsolid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.459,
+      "uncertainty": {
+        "confidence": 0.482,
+        "entropy": 0.466,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 4,
+      "centroid": [
+        127,
+        236,
+        231
+      ],
+      "coordinates": [
+        127,
+        236,
+        231
+      ],
+      "bbox": {
+        "z": [
+          111,
+          142
+        ],
+        "y": [
+          220,
+          251
+        ],
+        "x": [
+          215,
+          246
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 39.05,
+      "volume_mm3": 32177,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.727,
+      "uncertainty": {
+        "confidence": 0.652,
+        "entropy": 0.354,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 5,
+      "centroid": [
+        128,
+        248,
+        128
+      ],
+      "coordinates": [
+        128,
+        248,
+        128
+      ],
+      "bbox": {
+        "z": [
+          112,
+          143
+        ],
+        "y": [
+          232,
+          263
+        ],
+        "x": [
+          112,
+          143
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 51.36,
+      "volume_mm3": 31885,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.257,
+      "uncertainty": {
+        "confidence": 0.183,
+        "entropy": 0.425,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 6,
+      "centroid": [
+        129,
+        213,
+        221
+      ],
+      "coordinates": [
+        129,
+        213,
+        221
+      ],
+      "bbox": {
+        "z": [
+          113,
+          144
+        ],
+        "y": [
+          197,
+          228
+        ],
+        "x": [
+          205,
+          236
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 42.66,
+      "volume_mm3": 31275,
+      "type": "subsolid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.553,
+      "uncertainty": {
+        "confidence": 0.599,
+        "entropy": 0.511,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 7,
+      "centroid": [
+        130,
+        240,
+        139
+      ],
+      "coordinates": [
+        130,
+        240,
+        139
+      ],
+      "bbox": {
+        "z": [
+          114,
+          145
+        ],
+        "y": [
+          224,
+          255
+        ],
+        "x": [
+          123,
+          154
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 50.4,
+      "volume_mm3": 37220,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.825,
+      "uncertainty": {
+        "confidence": 0.769,
+        "entropy": 0.244,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 8,
+      "centroid": [
+        130,
+        251,
+        247
+      ],
+      "coordinates": [
+        130,
+        251,
+        247
+      ],
+      "bbox": {
+        "z": [
+          114,
+          145
+        ],
+        "y": [
+          235,
+          266
+        ],
+        "x": [
+          231,
+          262
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 32.9,
+      "volume_mm3": 39804,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.359,
+      "uncertainty": {
+        "confidence": 0.314,
+        "entropy": 0.504,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 9,
+      "centroid": [
+        135,
+        209,
+        250
+      ],
+      "coordinates": [
+        135,
+        209,
+        250
+      ],
+      "bbox": {
+        "z": [
+          119,
+          150
+        ],
+        "y": [
+          193,
+          224
+        ],
+        "x": [
+          234,
+          265
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 34.17,
+      "volume_mm3": 28744,
+      "type": "subsolid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.492,
+      "uncertainty": {
+        "confidence": 0.417,
+        "entropy": 0.545,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 10,
+      "centroid": [
+        135,
+        230,
+        245
+      ],
+      "coordinates": [
+        135,
+        230,
+        245
+      ],
+      "bbox": {
+        "z": [
+          119,
+          150
+        ],
+        "y": [
+          214,
+          245
+        ],
+        "x": [
+          229,
+          260
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 44.53,
+      "volume_mm3": 27867,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.368,
+      "uncertainty": {
+        "confidence": 0.279,
+        "entropy": 0.46,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 11,
+      "centroid": [
+        135,
+        251,
+        119
+      ],
+      "coordinates": [
+        135,
+        251,
+        119
+      ],
+      "bbox": {
+        "z": [
+          119,
+          150
+        ],
+        "y": [
+          235,
+          266
+        ],
+        "x": [
+          103,
+          134
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 52.37,
+      "volume_mm3": 38468,
+      "type": "subsolid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.431,
+      "uncertainty": {
+        "confidence": 0.471,
+        "entropy": 0.463,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 12,
+      "centroid": [
+        138,
+        202,
+        72
+      ],
+      "coordinates": [
+        138,
+        202,
+        72
+      ],
+      "bbox": {
+        "z": [
+          122,
+          153
+        ],
+        "y": [
+          186,
+          217
+        ],
+        "x": [
+          56,
+          87
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 45.16,
+      "volume_mm3": 39471,
+      "type": "subsolid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.57,
+      "uncertainty": {
+        "confidence": 0.502,
+        "entropy": 0.496,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 13,
+      "centroid": [
+        143,
+        225,
+        226
+      ],
+      "coordinates": [
+        143,
+        225,
+        226
+      ],
+      "bbox": {
+        "z": [
+          127,
+          158
+        ],
+        "y": [
+          209,
+          240
+        ],
+        "x": [
+          210,
+          241
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 55.2,
+      "volume_mm3": 26776,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.864,
+      "uncertainty": {
+        "confidence": 0.811,
+        "entropy": 0.194,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 14,
+      "centroid": [
+        145,
+        230,
+        270
+      ],
+      "coordinates": [
+        145,
+        230,
+        270
+      ],
+      "bbox": {
+        "z": [
+          129,
+          160
+        ],
+        "y": [
+          214,
+          245
+        ],
+        "x": [
+          254,
+          285
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 44.89,
+      "volume_mm3": 37114,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.503,
+      "uncertainty": {
+        "confidence": 0.586,
+        "entropy": 0.454,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 15,
+      "centroid": [
+        145,
+        250,
+        254
+      ],
+      "coordinates": [
+        145,
+        250,
+        254
+      ],
+      "bbox": {
+        "z": [
+          129,
+          160
+        ],
+        "y": [
+          234,
+          265
+        ],
+        "x": [
+          238,
+          269
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 49.12,
+      "volume_mm3": 36994,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.579,
+      "uncertainty": {
+        "confidence": 0.535,
+        "entropy": 0.505,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 16,
+      "centroid": [
+        150,
+        244,
+        92
+      ],
+      "coordinates": [
+        150,
+        244,
+        92
+      ],
+      "bbox": {
+        "z": [
+          134,
+          165
+        ],
+        "y": [
+          228,
+          259
+        ],
+        "x": [
+          76,
+          107
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 55.41,
+      "volume_mm3": 24835,
+      "type": "subsolid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.611,
+      "uncertainty": {
+        "confidence": 0.65,
+        "entropy": 0.487,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 17,
+      "centroid": [
+        150,
+        220,
+        81
+      ],
+      "coordinates": [
+        150,
+        220,
+        81
+      ],
+      "bbox": {
+        "z": [
+          134,
+          165
+        ],
+        "y": [
+          204,
+          235
+        ],
+        "x": [
+          65,
+          96
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 54.06,
+      "volume_mm3": 37984,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.73,
+      "uncertainty": {
+        "confidence": 0.767,
+        "entropy": 0.376,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 18,
+      "centroid": [
+        150,
+        260,
+        222
+      ],
+      "coordinates": [
+        150,
+        260,
+        222
+      ],
+      "bbox": {
+        "z": [
+          134,
+          165
+        ],
+        "y": [
+          244,
+          275
+        ],
+        "x": [
+          206,
+          237
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 29.75,
+      "volume_mm3": 26795,
+      "type": "subsolid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.587,
+      "uncertainty": {
+        "confidence": 0.508,
+        "entropy": 0.532,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 19,
+      "centroid": [
+        154,
+        136,
+        69
+      ],
+      "coordinates": [
+        154,
+        136,
+        69
+      ],
+      "bbox": {
+        "z": [
+          138,
+          169
+        ],
+        "y": [
+          120,
+          151
+        ],
+        "x": [
+          53,
+          84
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 48.71,
+      "volume_mm3": 27728,
+      "type": "subsolid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.742,
+      "uncertainty": {
+        "confidence": 0.655,
+        "entropy": 0.369,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 20,
+      "centroid": [
+        155,
+        251,
+        109
+      ],
+      "coordinates": [
+        155,
+        251,
+        109
+      ],
+      "bbox": {
+        "z": [
+          139,
+          170
+        ],
+        "y": [
+          235,
+          266
+        ],
+        "x": [
+          93,
+          124
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 53.25,
+      "volume_mm3": 32570,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.364,
+      "uncertainty": {
+        "confidence": 0.372,
+        "entropy": 0.416,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 21,
+      "centroid": [
+        165,
+        253,
+        250
+      ],
+      "coordinates": [
+        165,
+        253,
+        250
+      ],
+      "bbox": {
+        "z": [
+          149,
+          180
+        ],
+        "y": [
+          237,
+          268
+        ],
+        "x": [
+          234,
+          265
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 47.19,
+      "volume_mm3": 39343,
+      "type": "subsolid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.394,
+      "uncertainty": {
+        "confidence": 0.45,
+        "entropy": 0.455,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 22,
+      "centroid": [
+        160,
+        187,
+        256
+      ],
+      "coordinates": [
+        160,
+        187,
+        256
+      ],
+      "bbox": {
+        "z": [
+          144,
+          175
+        ],
+        "y": [
+          171,
+          202
+        ],
+        "x": [
+          240,
+          271
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 39.71,
+      "volume_mm3": 31783,
+      "type": "subsolid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.645,
+      "uncertainty": {
+        "confidence": 0.598,
+        "entropy": 0.492,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 23,
+      "centroid": [
+        160,
+        200,
+        247
+      ],
+      "coordinates": [
+        160,
+        200,
+        247
+      ],
+      "bbox": {
+        "z": [
+          144,
+          175
+        ],
+        "y": [
+          184,
+          215
+        ],
+        "x": [
+          231,
+          262
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 48.55,
+      "volume_mm3": 33035,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.735,
+      "uncertainty": {
+        "confidence": 0.825,
+        "entropy": 0.362,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 24,
+      "centroid": [
+        165,
+        227,
+        87
+      ],
+      "coordinates": [
+        165,
+        227,
+        87
+      ],
+      "bbox": {
+        "z": [
+          149,
+          180
+        ],
+        "y": [
+          211,
+          242
+        ],
+        "x": [
+          71,
+          102
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 39.8,
+      "volume_mm3": 33021,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.718,
+      "uncertainty": {
+        "confidence": 0.632,
+        "entropy": 0.391,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 25,
+      "centroid": [
+        164,
+        256,
+        108
+      ],
+      "coordinates": [
+        164,
+        256,
+        108
+      ],
+      "bbox": {
+        "z": [
+          148,
+          179
+        ],
+        "y": [
+          240,
+          271
+        ],
+        "x": [
+          92,
+          123
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 44.08,
+      "volume_mm3": 32249,
+      "type": "subsolid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.395,
+      "uncertainty": {
+        "confidence": 0.369,
+        "entropy": 0.449,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 26,
+      "centroid": [
+        165,
+        185,
+        278
+      ],
+      "coordinates": [
+        165,
+        185,
+        278
+      ],
+      "bbox": {
+        "z": [
+          149,
+          180
+        ],
+        "y": [
+          169,
+          200
+        ],
+        "x": [
+          262,
+          293
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 31.05,
+      "volume_mm3": 25837,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.819,
+      "uncertainty": {
+        "confidence": 0.809,
+        "entropy": 0.299,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 27,
+      "centroid": [
+        165,
+        201,
+        113
+      ],
+      "coordinates": [
+        165,
+        201,
+        113
+      ],
+      "bbox": {
+        "z": [
+          149,
+          180
+        ],
+        "y": [
+          185,
+          216
+        ],
+        "x": [
+          97,
+          128
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 51.15,
+      "volume_mm3": 29966,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.475,
+      "uncertainty": {
+        "confidence": 0.501,
+        "entropy": 0.453,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 28,
+      "centroid": [
+        167,
+        140,
+        142
+      ],
+      "coordinates": [
+        167,
+        140,
+        142
+      ],
+      "bbox": {
+        "z": [
+          151,
+          182
+        ],
+        "y": [
+          124,
+          155
+        ],
+        "x": [
+          126,
+          157
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 38.78,
+      "volume_mm3": 25316,
+      "type": "subsolid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.242,
+      "uncertainty": {
+        "confidence": 0.315,
+        "entropy": 0.347,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 29,
+      "centroid": [
+        167,
+        147,
+        82
+      ],
+      "coordinates": [
+        167,
+        147,
+        82
+      ],
+      "bbox": {
+        "z": [
+          151,
+          182
+        ],
+        "y": [
+          131,
+          162
+        ],
+        "x": [
+          66,
+          97
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 39.13,
+      "volume_mm3": 30304,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.415,
+      "uncertainty": {
+        "confidence": 0.502,
+        "entropy": 0.478,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 30,
+      "centroid": [
+        167,
+        179,
+        128
+      ],
+      "coordinates": [
+        167,
+        179,
+        128
+      ],
+      "bbox": {
+        "z": [
+          151,
+          182
+        ],
+        "y": [
+          163,
+          194
+        ],
+        "x": [
+          112,
+          143
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 50.39,
+      "volume_mm3": 35547,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.257,
+      "uncertainty": {
+        "confidence": 0.229,
+        "entropy": 0.378,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 31,
+      "centroid": [
+        170,
+        202,
+        272
+      ],
+      "coordinates": [
+        170,
+        202,
+        272
+      ],
+      "bbox": {
+        "z": [
+          154,
+          185
+        ],
+        "y": [
+          186,
+          217
+        ],
+        "x": [
+          256,
+          287
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 50.39,
+      "volume_mm3": 26818,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.873,
+      "uncertainty": {
+        "confidence": 0.79,
+        "entropy": 0.237,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 32,
+      "centroid": [
+        170,
+        236,
+        90
+      ],
+      "coordinates": [
+        170,
+        236,
+        90
+      ],
+      "bbox": {
+        "z": [
+          154,
+          185
+        ],
+        "y": [
+          220,
+          251
+        ],
+        "x": [
+          74,
+          105
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 47.4,
+      "volume_mm3": 28518,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.282,
+      "uncertainty": {
+        "confidence": 0.19,
+        "entropy": 0.384,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 33,
+      "centroid": [
+        170,
+        254,
+        117
+      ],
+      "coordinates": [
+        170,
+        254,
+        117
+      ],
+      "bbox": {
+        "z": [
+          154,
+          185
+        ],
+        "y": [
+          238,
+          269
+        ],
+        "x": [
+          101,
+          132
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 47.4,
+      "volume_mm3": 39362,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.596,
+      "uncertainty": {
+        "confidence": 0.547,
+        "entropy": 0.503,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 34,
+      "centroid": [
+        182,
+        222,
+        82
+      ],
+      "coordinates": [
+        182,
+        222,
+        82
+      ],
+      "bbox": {
+        "z": [
+          166,
+          197
+        ],
+        "y": [
+          206,
+          237
+        ],
+        "x": [
+          66,
+          97
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 40.38,
+      "volume_mm3": 39821,
+      "type": "subsolid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.315,
+      "uncertainty": {
+        "confidence": 0.356,
+        "entropy": 0.4,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 35,
+      "centroid": [
+        177,
+        190,
+        130
+      ],
+      "coordinates": [
+        177,
+        190,
+        130
+      ],
+      "bbox": {
+        "z": [
+          161,
+          192
+        ],
+        "y": [
+          174,
+          205
+        ],
+        "x": [
+          114,
+          145
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 47.32,
+      "volume_mm3": 36200,
+      "type": "subsolid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.544,
+      "uncertainty": {
+        "confidence": 0.59,
+        "entropy": 0.534,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 36,
+      "centroid": [
+        178,
+        219,
+        265
+      ],
+      "coordinates": [
+        178,
+        219,
+        265
+      ],
+      "bbox": {
+        "z": [
+          162,
+          193
+        ],
+        "y": [
+          203,
+          234
+        ],
+        "x": [
+          249,
+          280
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 45.61,
+      "volume_mm3": 34839,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.457,
+      "uncertainty": {
+        "confidence": 0.429,
+        "entropy": 0.49,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 37,
+      "centroid": [
+        180,
+        179,
+        79
+      ],
+      "coordinates": [
+        180,
+        179,
+        79
+      ],
+      "bbox": {
+        "z": [
+          164,
+          195
+        ],
+        "y": [
+          163,
+          194
+        ],
+        "x": [
+          63,
+          94
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 43.6,
+      "volume_mm3": 39351,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.462,
+      "uncertainty": {
+        "confidence": 0.388,
+        "entropy": 0.489,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 38,
+      "centroid": [
+        180,
+        241,
+        216
+      ],
+      "coordinates": [
+        180,
+        241,
+        216
+      ],
+      "bbox": {
+        "z": [
+          164,
+          195
+        ],
+        "y": [
+          225,
+          256
+        ],
+        "x": [
+          200,
+          231
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 43.43,
+      "volume_mm3": 39472,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.316,
+      "uncertainty": {
+        "confidence": 0.265,
+        "entropy": 0.415,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 39,
+      "centroid": [
+        180,
+        255,
+        242
+      ],
+      "coordinates": [
+        180,
+        255,
+        242
+      ],
+      "bbox": {
+        "z": [
+          164,
+          195
+        ],
+        "y": [
+          239,
+          270
+        ],
+        "x": [
+          226,
+          257
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 41.38,
+      "volume_mm3": 39635,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.744,
+      "uncertainty": {
+        "confidence": 0.657,
+        "entropy": 0.34,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 40,
+      "centroid": [
+        182,
+        115,
+        99
+      ],
+      "coordinates": [
+        182,
+        115,
+        99
+      ],
+      "bbox": {
+        "z": [
+          166,
+          197
+        ],
+        "y": [
+          99,
+          130
+        ],
+        "x": [
+          83,
+          114
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 52.58,
+      "volume_mm3": 26770,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.821,
+      "uncertainty": {
+        "confidence": 0.859,
+        "entropy": 0.338,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 41,
+      "centroid": [
+        186,
+        165,
+        288
+      ],
+      "coordinates": [
+        186,
+        165,
+        288
+      ],
+      "bbox": {
+        "z": [
+          170,
+          201
+        ],
+        "y": [
+          149,
+          180
+        ],
+        "x": [
+          272,
+          303
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 52.41,
+      "volume_mm3": 26168,
+      "type": "subsolid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.892,
+      "uncertainty": {
+        "confidence": 0.934,
+        "entropy": 0.203,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 42,
+      "centroid": [
+        186,
+        206,
+        266
+      ],
+      "coordinates": [
+        186,
+        206,
+        266
+      ],
+      "bbox": {
+        "z": [
+          170,
+          201
+        ],
+        "y": [
+          190,
+          221
+        ],
+        "x": [
+          250,
+          281
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 46.38,
+      "volume_mm3": 34603,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.95,
+      "uncertainty": {
+        "confidence": 0.889,
+        "entropy": 0.134,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 43,
+      "centroid": [
+        188,
+        149,
+        128
+      ],
+      "coordinates": [
+        188,
+        149,
+        128
+      ],
+      "bbox": {
+        "z": [
+          172,
+          203
+        ],
+        "y": [
+          133,
+          164
+        ],
+        "x": [
+          112,
+          143
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 52.37,
+      "volume_mm3": 37611,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.274,
+      "uncertainty": {
+        "confidence": 0.366,
+        "entropy": 0.385,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 44,
+      "centroid": [
+        192,
+        226,
+        85
+      ],
+      "coordinates": [
+        192,
+        226,
+        85
+      ],
+      "bbox": {
+        "z": [
+          176,
+          207
+        ],
+        "y": [
+          210,
+          241
+        ],
+        "x": [
+          69,
+          100
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 40.06,
+      "volume_mm3": 27013,
+      "type": "subsolid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.343,
+      "uncertainty": {
+        "confidence": 0.308,
+        "entropy": 0.477,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 45,
+      "centroid": [
+        190,
+        131,
+        264
+      ],
+      "coordinates": [
+        190,
+        131,
+        264
+      ],
+      "bbox": {
+        "z": [
+          174,
+          205
+        ],
+        "y": [
+          115,
+          146
+        ],
+        "x": [
+          248,
+          279
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 54.4,
+      "volume_mm3": 33382,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.434,
+      "uncertainty": {
+        "confidence": 0.434,
+        "entropy": 0.525,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 46,
+      "centroid": [
+        196,
+        191,
+        81
+      ],
+      "coordinates": [
+        196,
+        191,
+        81
+      ],
+      "bbox": {
+        "z": [
+          180,
+          211
+        ],
+        "y": [
+          175,
+          206
+        ],
+        "x": [
+          65,
+          96
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 37.01,
+      "volume_mm3": 35457,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.479,
+      "uncertainty": {
+        "confidence": 0.549,
+        "entropy": 0.532,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 47,
+      "centroid": [
+        198,
+        260,
+        228
+      ],
+      "coordinates": [
+        198,
+        260,
+        228
+      ],
+      "bbox": {
+        "z": [
+          182,
+          213
+        ],
+        "y": [
+          244,
+          275
+        ],
+        "x": [
+          212,
+          243
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 41.19,
+      "volume_mm3": 36940,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.603,
+      "uncertainty": {
+        "confidence": 0.649,
+        "entropy": 0.431,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 48,
+      "centroid": [
+        199,
+        115,
+        218
+      ],
+      "coordinates": [
+        199,
+        115,
+        218
+      ],
+      "bbox": {
+        "z": [
+          183,
+          214
+        ],
+        "y": [
+          99,
+          130
+        ],
+        "x": [
+          202,
+          233
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 53.47,
+      "volume_mm3": 35501,
+      "type": "subsolid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.702,
+      "uncertainty": {
+        "confidence": 0.644,
+        "entropy": 0.384,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 49,
+      "centroid": [
+        200,
+        128,
+        260
+      ],
+      "coordinates": [
+        200,
+        128,
+        260
+      ],
+      "bbox": {
+        "z": [
+          184,
+          215
+        ],
+        "y": [
+          112,
+          143
+        ],
+        "x": [
+          244,
+          275
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 43.55,
+      "volume_mm3": 36048,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.424,
+      "uncertainty": {
+        "confidence": 0.35,
+        "entropy": 0.483,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 50,
+      "centroid": [
+        200,
+        253,
+        235
+      ],
+      "coordinates": [
+        200,
+        253,
+        235
+      ],
+      "bbox": {
+        "z": [
+          184,
+          215
+        ],
+        "y": [
+          237,
+          268
+        ],
+        "x": [
+          219,
+          250
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 51.79,
+      "volume_mm3": 39574,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.438,
+      "uncertainty": {
+        "confidence": 0.507,
+        "entropy": 0.517,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 51,
+      "centroid": [
+        203,
+        114,
+        111
+      ],
+      "coordinates": [
+        203,
+        114,
+        111
+      ],
+      "bbox": {
+        "z": [
+          187,
+          218
+        ],
+        "y": [
+          98,
+          129
+        ],
+        "x": [
+          95,
+          126
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 35.19,
+      "volume_mm3": 30758,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.818,
+      "uncertainty": {
+        "confidence": 0.916,
+        "entropy": 0.279,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 52,
+      "centroid": [
+        205,
+        117,
+        101
+      ],
+      "coordinates": [
+        205,
+        117,
+        101
+      ],
+      "bbox": {
+        "z": [
+          189,
+          220
+        ],
+        "y": [
+          101,
+          132
+        ],
+        "x": [
+          85,
+          116
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 54.07,
+      "volume_mm3": 30379,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.302,
+      "uncertainty": {
+        "confidence": 0.299,
+        "entropy": 0.442,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 53,
+      "centroid": [
+        205,
+        175,
+        272
+      ],
+      "coordinates": [
+        205,
+        175,
+        272
+      ],
+      "bbox": {
+        "z": [
+          189,
+          220
+        ],
+        "y": [
+          159,
+          190
+        ],
+        "x": [
+          256,
+          287
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 45.29,
+      "volume_mm3": 28720,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.451,
+      "uncertainty": {
+        "confidence": 0.442,
+        "entropy": 0.49,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 54,
+      "centroid": [
+        216,
+        207,
+        226
+      ],
+      "coordinates": [
+        216,
+        207,
+        226
+      ],
+      "bbox": {
+        "z": [
+          200,
+          231
+        ],
+        "y": [
+          191,
+          222
+        ],
+        "x": [
+          210,
+          241
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 48.92,
+      "volume_mm3": 32471,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.559,
+      "uncertainty": {
+        "confidence": 0.584,
+        "entropy": 0.472,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 55,
+      "centroid": [
+        215,
+        150,
+        269
+      ],
+      "coordinates": [
+        215,
+        150,
+        269
+      ],
+      "bbox": {
+        "z": [
+          199,
+          230
+        ],
+        "y": [
+          134,
+          165
+        ],
+        "x": [
+          253,
+          284
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 30.33,
+      "volume_mm3": 32573,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.444,
+      "uncertainty": {
+        "confidence": 0.351,
+        "entropy": 0.475,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 56,
+      "centroid": [
+        218,
+        197,
+        79
+      ],
+      "coordinates": [
+        218,
+        197,
+        79
+      ],
+      "bbox": {
+        "z": [
+          202,
+          233
+        ],
+        "y": [
+          181,
+          212
+        ],
+        "x": [
+          63,
+          94
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 54.68,
+      "volume_mm3": 39030,
+      "type": "subsolid",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.481,
+      "uncertainty": {
+        "confidence": 0.432,
+        "entropy": 0.506,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 57,
+      "centroid": [
+        219,
+        122,
+        239
+      ],
+      "coordinates": [
+        219,
+        122,
+        239
+      ],
+      "bbox": {
+        "z": [
+          203,
+          234
+        ],
+        "y": [
+          106,
+          137
+        ],
+        "x": [
+          223,
+          254
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 50.4,
+      "volume_mm3": 26406,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.359,
+      "uncertainty": {
+        "confidence": 0.325,
+        "entropy": 0.459,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 58,
+      "centroid": [
+        220,
+        182,
+        116
+      ],
+      "coordinates": [
+        220,
+        182,
+        116
+      ],
+      "bbox": {
+        "z": [
+          204,
+          235
+        ],
+        "y": [
+          166,
+          197
+        ],
+        "x": [
+          100,
+          131
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 45.76,
+      "volume_mm3": 25871,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.474,
+      "uncertainty": {
+        "confidence": 0.379,
+        "entropy": 0.529,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 59,
+      "centroid": [
+        233,
+        138,
+        93
+      ],
+      "coordinates": [
+        233,
+        138,
+        93
+      ],
+      "bbox": {
+        "z": [
+          217,
+          248
+        ],
+        "y": [
+          122,
+          153
+        ],
+        "x": [
+          77,
+          108
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 39.46,
+      "volume_mm3": 26529,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.499,
+      "uncertainty": {
+        "confidence": 0.462,
+        "entropy": 0.479,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 60,
+      "centroid": [
+        222,
+        220,
+        256
+      ],
+      "coordinates": [
+        222,
+        220,
+        256
+      ],
+      "bbox": {
+        "z": [
+          206,
+          237
+        ],
+        "y": [
+          204,
+          235
+        ],
+        "x": [
+          240,
+          271
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 47.3,
+      "volume_mm3": 32850,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.386,
+      "uncertainty": {
+        "confidence": 0.45,
+        "entropy": 0.439,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 61,
+      "centroid": [
+        232,
+        171,
+        268
+      ],
+      "coordinates": [
+        232,
+        171,
+        268
+      ],
+      "bbox": {
+        "z": [
+          216,
+          247
+        ],
+        "y": [
+          155,
+          186
+        ],
+        "x": [
+          252,
+          283
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 46.56,
+      "volume_mm3": 40041,
+      "type": "ground-glass",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.574,
+      "uncertainty": {
+        "confidence": 0.515,
+        "entropy": 0.485,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 62,
+      "centroid": [
+        228,
+        120,
+        110
+      ],
+      "coordinates": [
+        228,
+        120,
+        110
+      ],
+      "bbox": {
+        "z": [
+          212,
+          243
+        ],
+        "y": [
+          104,
+          135
+        ],
+        "x": [
+          94,
+          125
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 45.5,
+      "volume_mm3": 28914,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.567,
+      "uncertainty": {
+        "confidence": 0.612,
+        "entropy": 0.526,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 63,
+      "centroid": [
+        230,
+        126,
+        102
+      ],
+      "coordinates": [
+        230,
+        126,
+        102
+      ],
+      "bbox": {
+        "z": [
+          214,
+          245
+        ],
+        "y": [
+          110,
+          141
+        ],
+        "x": [
+          86,
+          117
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 45.31,
+      "volume_mm3": 24819,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.336,
+      "uncertainty": {
+        "confidence": 0.337,
+        "entropy": 0.445,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 64,
+      "centroid": [
+        230,
+        173,
+        78
+      ],
+      "coordinates": [
+        230,
+        173,
+        78
+      ],
+      "bbox": {
+        "z": [
+          214,
+          245
+        ],
+        "y": [
+          157,
+          188
+        ],
+        "x": [
+          62,
+          93
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 51.87,
+      "volume_mm3": 34879,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.2,
+      "uncertainty": {
+        "confidence": 0.185,
+        "entropy": 0.276,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 65,
+      "centroid": [
+        230,
+        215,
+        260
+      ],
+      "coordinates": [
+        230,
+        215,
+        260
+      ],
+      "bbox": {
+        "z": [
+          214,
+          245
+        ],
+        "y": [
+          199,
+          230
+        ],
+        "x": [
+          244,
+          275
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 47.2,
+      "volume_mm3": 33289,
+      "type": "subsolid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.556,
+      "uncertainty": {
+        "confidence": 0.557,
+        "entropy": 0.505,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 66,
+      "centroid": [
+        245,
+        201,
+        261
+      ],
+      "coordinates": [
+        245,
+        201,
+        261
+      ],
+      "bbox": {
+        "z": [
+          229,
+          260
+        ],
+        "y": [
+          185,
+          216
+        ],
+        "x": [
+          245,
+          276
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 47.0,
+      "volume_mm3": 29762,
+      "type": "ground-glass",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.2,
+      "uncertainty": {
+        "confidence": 0.286,
+        "entropy": 0.284,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 67,
+      "centroid": [
+        235,
+        127,
+        142
+      ],
+      "coordinates": [
+        235,
+        127,
+        142
+      ],
+      "bbox": {
+        "z": [
+          219,
+          250
+        ],
+        "y": [
+          111,
+          142
+        ],
+        "x": [
+          126,
+          157
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 37.07,
+      "volume_mm3": 35728,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.802,
+      "uncertainty": {
+        "confidence": 0.785,
+        "entropy": 0.348,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 68,
+      "centroid": [
+        235,
+        149,
+        129
+      ],
+      "coordinates": [
+        235,
+        149,
+        129
+      ],
+      "bbox": {
+        "z": [
+          219,
+          250
+        ],
+        "y": [
+          133,
+          164
+        ],
+        "x": [
+          113,
+          144
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 41.1,
+      "volume_mm3": 36445,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.362,
+      "uncertainty": {
+        "confidence": 0.326,
+        "entropy": 0.438,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 69,
+      "centroid": [
+        235,
+        252,
+        223
+      ],
+      "coordinates": [
+        235,
+        252,
+        223
+      ],
+      "bbox": {
+        "z": [
+          219,
+          250
+        ],
+        "y": [
+          236,
+          267
+        ],
+        "x": [
+          207,
+          238
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 53.71,
+      "volume_mm3": 32567,
+      "type": "subsolid",
+      "lobe": "left lingula",
+      "location": "left lingula",
+      "prob_malignant": 0.553,
+      "uncertainty": {
+        "confidence": 0.5,
+        "entropy": 0.463,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 70,
+      "centroid": [
+        237,
+        227,
+        102
+      ],
+      "coordinates": [
+        237,
+        227,
+        102
+      ],
+      "bbox": {
+        "z": [
+          221,
+          252
+        ],
+        "y": [
+          211,
+          242
+        ],
+        "x": [
+          86,
+          117
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 50.48,
+      "volume_mm3": 25654,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.705,
+      "uncertainty": {
+        "confidence": 0.802,
+        "entropy": 0.452,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 71,
+      "centroid": [
+        237,
+        230,
+        144
+      ],
+      "coordinates": [
+        237,
+        230,
+        144
+      ],
+      "bbox": {
+        "z": [
+          221,
+          252
+        ],
+        "y": [
+          214,
+          245
+        ],
+        "x": [
+          128,
+          159
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 39.57,
+      "volume_mm3": 35693,
+      "type": "ground-glass",
+      "lobe": "right middle lobe",
+      "location": "right middle lobe",
+      "prob_malignant": 0.95,
+      "uncertainty": {
+        "confidence": 0.985,
+        "entropy": 0.12,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 72,
+      "centroid": [
+        239,
+        122,
+        245
+      ],
+      "coordinates": [
+        239,
+        122,
+        245
+      ],
+      "bbox": {
+        "z": [
+          223,
+          254
+        ],
+        "y": [
+          106,
+          137
+        ],
+        "x": [
+          229,
+          260
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 53.76,
+      "volume_mm3": 34867,
+      "type": "subsolid",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.37,
+      "uncertainty": {
+        "confidence": 0.463,
+        "entropy": 0.505,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 73,
+      "centroid": [
+        240,
+        153,
+        258
+      ],
+      "coordinates": [
+        240,
+        153,
+        258
+      ],
+      "bbox": {
+        "z": [
+          224,
+          255
+        ],
+        "y": [
+          137,
+          168
+        ],
+        "x": [
+          242,
+          273
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 45.14,
+      "volume_mm3": 39939,
+      "type": "ground-glass",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.308,
+      "uncertainty": {
+        "confidence": 0.348,
+        "entropy": 0.471,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 74,
+      "centroid": [
+        248,
+        234,
+        113
+      ],
+      "coordinates": [
+        248,
+        234,
+        113
+      ],
+      "bbox": {
+        "z": [
+          232,
+          263
+        ],
+        "y": [
+          218,
+          249
+        ],
+        "x": [
+          97,
+          128
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 58.02,
+      "volume_mm3": 29176,
+      "type": "ground-glass",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "prob_malignant": 0.481,
+      "uncertainty": {
+        "confidence": 0.441,
+        "entropy": 0.538,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 75,
+      "centroid": [
+        243,
+        180,
+        79
+      ],
+      "coordinates": [
+        243,
+        180,
+        79
+      ],
+      "bbox": {
+        "z": [
+          227,
+          258
+        ],
+        "y": [
+          164,
+          195
+        ],
+        "x": [
+          63,
+          94
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 45.46,
+      "volume_mm3": 25383,
+      "type": "ground-glass",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "prob_malignant": 0.454,
+      "uncertainty": {
+        "confidence": 0.372,
+        "entropy": 0.481,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 76,
+      "centroid": [
+        245,
+        143,
+        94
+      ],
+      "coordinates": [
+        245,
+        143,
+        94
+      ],
+      "bbox": {
+        "z": [
+          229,
+          260
+        ],
+        "y": [
+          127,
+          158
+        ],
+        "x": [
+          78,
+          109
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 40.93,
+      "volume_mm3": 37363,
+      "type": "ground-glass",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "prob_malignant": 0.765,
+      "uncertainty": {
+        "confidence": 0.776,
+        "entropy": 0.328,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 77,
+      "centroid": [
+        247,
+        238,
+        239
+      ],
+      "coordinates": [
+        247,
+        238,
+        239
+      ],
+      "bbox": {
+        "z": [
+          231,
+          262
+        ],
+        "y": [
+          222,
+          253
+        ],
+        "x": [
+          223,
+          254
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 39.85,
+      "volume_mm3": 32009,
+      "type": "ground-glass",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.572,
+      "uncertainty": {
+        "confidence": 0.547,
+        "entropy": 0.454,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 78,
+      "centroid": [
+        250,
+        119,
+        132
+      ],
+      "coordinates": [
+        250,
+        119,
+        132
+      ],
+      "bbox": {
+        "z": [
+          234,
+          265
+        ],
+        "y": [
+          103,
+          134
+        ],
+        "x": [
+          116,
+          147
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 51.43,
+      "volume_mm3": 31680,
+      "type": "subsolid",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "prob_malignant": 0.915,
+      "uncertainty": {
+        "confidence": 0.989,
+        "entropy": 0.107,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 79,
+      "centroid": [
+        250,
+        123,
+        120
+      ],
+      "coordinates": [
+        250,
+        123,
+        120
+      ],
+      "bbox": {
+        "z": [
+          234,
+          265
+        ],
+        "y": [
+          107,
+          138
+        ],
+        "x": [
+          104,
+          135
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 44.27,
+      "volume_mm3": 30138,
+      "type": "ground-glass",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "prob_malignant": 0.405,
+      "uncertainty": {
+        "confidence": 0.327,
+        "entropy": 0.524,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 80,
+      "centroid": [
+        250,
+        132,
+        143
+      ],
+      "coordinates": [
+        250,
+        132,
+        143
+      ],
+      "bbox": {
+        "z": [
+          234,
+          265
+        ],
+        "y": [
+          116,
+          147
+        ],
+        "x": [
+          127,
+          158
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 43.18,
+      "volume_mm3": 34703,
+      "type": "ground-glass",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "prob_malignant": 0.271,
+      "uncertainty": {
+        "confidence": 0.182,
+        "entropy": 0.401,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 81,
+      "centroid": [
+        253,
+        220,
+        250
+      ],
+      "coordinates": [
+        253,
+        220,
+        250
+      ],
+      "bbox": {
+        "z": [
+          237,
+          268
+        ],
+        "y": [
+          204,
+          235
+        ],
+        "x": [
+          234,
+          265
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 51.07,
+      "volume_mm3": 24916,
+      "type": "ground-glass",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.645,
+      "uncertainty": {
+        "confidence": 0.723,
+        "entropy": 0.422,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 82,
+      "centroid": [
+        255,
+        130,
+        216
+      ],
+      "coordinates": [
+        255,
+        130,
+        216
+      ],
+      "bbox": {
+        "z": [
+          239,
+          270
+        ],
+        "y": [
+          114,
+          145
+        ],
+        "x": [
+          200,
+          231
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 46.96,
+      "volume_mm3": 26256,
+      "type": "ground-glass",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.713,
+      "uncertainty": {
+        "confidence": 0.656,
+        "entropy": 0.377,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 83,
+      "centroid": [
+        255,
+        132,
+        121
+      ],
+      "coordinates": [
+        255,
+        132,
+        121
+      ],
+      "bbox": {
+        "z": [
+          239,
+          270
+        ],
+        "y": [
+          116,
+          147
+        ],
+        "x": [
+          105,
+          136
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 51.79,
+      "volume_mm3": 38939,
+      "type": "ground-glass",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "prob_malignant": 0.408,
+      "uncertainty": {
+        "confidence": 0.325,
+        "entropy": 0.514,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 84,
+      "centroid": [
+        255,
+        189,
+        262
+      ],
+      "coordinates": [
+        255,
+        189,
+        262
+      ],
+      "bbox": {
+        "z": [
+          239,
+          270
+        ],
+        "y": [
+          173,
+          204
+        ],
+        "x": [
+          246,
+          277
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 57.51,
+      "volume_mm3": 31055,
+      "type": "subsolid",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.691,
+      "uncertainty": {
+        "confidence": 0.625,
+        "entropy": 0.386,
+        "needs_review": false
+      }
+    },
+    {
+      "id": 85,
+      "centroid": [
+        258,
+        232,
+        108
+      ],
+      "coordinates": [
+        258,
+        232,
+        108
+      ],
+      "bbox": {
+        "z": [
+          242,
+          273
+        ],
+        "y": [
+          216,
+          247
+        ],
+        "x": [
+          92,
+          123
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 46.56,
+      "volume_mm3": 39754,
+      "type": "subsolid",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "prob_malignant": 0.565,
+      "uncertainty": {
+        "confidence": 0.621,
+        "entropy": 0.478,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 86,
+      "centroid": [
+        260,
+        155,
+        97
+      ],
+      "coordinates": [
+        260,
+        155,
+        97
+      ],
+      "bbox": {
+        "z": [
+          244,
+          275
+        ],
+        "y": [
+          139,
+          170
+        ],
+        "x": [
+          81,
+          112
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 48.59,
+      "volume_mm3": 37669,
+      "type": "ground-glass",
+      "lobe": "right lower lobe",
+      "location": "right lower lobe",
+      "prob_malignant": 0.292,
+      "uncertainty": {
+        "confidence": 0.212,
+        "entropy": 0.42,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 87,
+      "centroid": [
+        262,
+        170,
+        256
+      ],
+      "coordinates": [
+        262,
+        170,
+        256
+      ],
+      "bbox": {
+        "z": [
+          246,
+          277
+        ],
+        "y": [
+          154,
+          185
+        ],
+        "x": [
+          240,
+          271
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 56.15,
+      "volume_mm3": 34944,
+      "type": "ground-glass",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.525,
+      "uncertainty": {
+        "confidence": 0.477,
+        "entropy": 0.535,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 88,
+      "centroid": [
+        265,
+        219,
+        248
+      ],
+      "coordinates": [
+        265,
+        219,
+        248
+      ],
+      "bbox": {
+        "z": [
+          249,
+          280
+        ],
+        "y": [
+          203,
+          234
+        ],
+        "x": [
+          232,
+          263
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 42.3,
+      "volume_mm3": 28227,
+      "type": "ground-glass",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.354,
+      "uncertainty": {
+        "confidence": 0.44,
+        "entropy": 0.486,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 89,
+      "centroid": [
+        270,
+        199,
+        253
+      ],
+      "coordinates": [
+        270,
+        199,
+        253
+      ],
+      "bbox": {
+        "z": [
+          254,
+          285
+        ],
+        "y": [
+          183,
+          214
+        ],
+        "x": [
+          237,
+          268
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 56.62,
+      "volume_mm3": 34987,
+      "type": "ground-glass",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.414,
+      "uncertainty": {
+        "confidence": 0.484,
+        "entropy": 0.49,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 90,
+      "centroid": [
+        272,
+        258,
+        218
+      ],
+      "coordinates": [
+        272,
+        258,
+        218
+      ],
+      "bbox": {
+        "z": [
+          256,
+          287
+        ],
+        "y": [
+          242,
+          273
+        ],
+        "x": [
+          202,
+          233
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 48.66,
+      "volume_mm3": 29600,
+      "type": "subsolid",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.381,
+      "uncertainty": {
+        "confidence": 0.417,
+        "entropy": 0.477,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 91,
+      "centroid": [
+        273,
+        238,
+        231
+      ],
+      "coordinates": [
+        273,
+        238,
+        231
+      ],
+      "bbox": {
+        "z": [
+          257,
+          288
+        ],
+        "y": [
+          222,
+          253
+        ],
+        "x": [
+          215,
+          246
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 50.64,
+      "volume_mm3": 34051,
+      "type": "ground-glass",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.665,
+      "uncertainty": {
+        "confidence": 0.706,
+        "entropy": 0.408,
+        "needs_review": true
+      }
+    },
+    {
+      "id": 92,
+      "centroid": [
+        280,
+        208,
+        247
+      ],
+      "coordinates": [
+        280,
+        208,
+        247
+      ],
+      "bbox": {
+        "z": [
+          264,
+          295
+        ],
+        "y": [
+          192,
+          223
+        ],
+        "x": [
+          231,
+          262
+        ]
+      },
+      "mask_path": "not_available",
+      "long_axis_mm": 50.88,
+      "volume_mm3": 37569,
+      "type": "ground-glass",
+      "lobe": "left lower lobe",
+      "location": "left lower lobe",
+      "prob_malignant": 0.794,
+      "uncertainty": {
+        "confidence": 0.798,
+        "entropy": 0.296,
+        "needs_review": false
+      }
+    }
+  ],
+  "timestamp": "2025-11-30T09:43:31.076943Z"
+}

@@ -1,0 +1,26 @@
+{
+  "study_id": "94eb577a-ee21-43fd-ae28-c253ce7af0ec",
+  "metadata": {
+    "volume_shape": [
+      360,
+      360,
+      38
+    ],
+    "spacing": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "num_candidates": 0,
+  "num_nodules": 0,
+  "processing_time_seconds": 0.0070531368255615234,
+  "lung_health": "Lungs appear within expected attenuation ranges.",
+  "emphysema_score": 0.0,
+  "fibrosis_score": 0.0,
+  "consolidation_score": 1.0,
+  "impression": "0 nodules detected. Largest measures 0.0 mm. 0 nodules show moderate-to-high malignancy probability. Recommend clinical correlation.",
+  "summary_text": "This exam shows multiple small nodules. Please consult your clinician for follow-up.",
+  "nodules": [],
+  "timestamp": "2025-11-30T22:00:02.520321Z"
+}
