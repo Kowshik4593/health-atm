@@ -8,8 +8,6 @@ const publicRoutes = [
     '/',
     '/login',
     '/signup',
-    '/reset-request',
-    '/reset-verify',
     '/landing',
 ];
 
