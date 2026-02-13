@@ -45,6 +45,6 @@ coverage/
 .nyc_output/
 
 # Previous/Backup Folders (Optional - exclude if not needed in repo)
-# backend-dinesh/
+backend-dinesh/
 lung-ai/
 fypenv/
